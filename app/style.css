@@ -1,0 +1,36 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+      h2{
+        font-family: 'Spline Sans', sans-serif;
+        text-align: center;
+      }
+
+      #map {
+        height: 400px;
+        width: 800px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+      }
+      
+      #btn {
+        font-family: 'Spline Sans', sans-serif;
+        margin-top: 30px;
+        background-color: #12CBC4;
+        color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: grey;
+        border-radius: 5px;
+
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
